@@ -1,0 +1,22 @@
+<div class="d-flex justify-content-center align-item-center">
+    <table>
+        <tr>
+            <th class="p-2">Id</th>
+            <th class="p-2">Department_Id</th>
+            <th class="p-2">Manager_Id</th>
+        </tr>
+        <% @managers.each do |m| %>
+        <tr>
+            <td class="p-2">
+                <%= m.id %>
+            </td>
+            <td class="p-2">
+                <%= m.department_id %>
+            </td>
+            <td class="p-2">
+                <%= m.Employee_id %>
+            </td>
+        </tr>
+        <% end %>
+    </table>
+</div>

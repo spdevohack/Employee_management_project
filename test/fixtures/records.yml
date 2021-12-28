@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contact_no: MyString
+  email: MyString
+  birth_date: 2021-12-28
+  qualificatiion: MyString
+  joining_date: 2021-12-28
+  resigning_date: 2021-12-28
+
+two:
+  contact_no: MyString
+  email: MyString
+  birth_date: 2021-12-28
+  qualificatiion: MyString
+  joining_date: 2021-12-28
+  resigning_date: 2021-12-28

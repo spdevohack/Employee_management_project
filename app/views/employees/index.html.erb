@@ -1,0 +1,59 @@
+<div class="d-flex justify-content-center align-item-center">
+    <table>
+        <tr>
+            <th class="p-2">Id</th>
+            <th class="p-2">First Name</th>
+            <th class="p-2">Last Name</th>
+            <th class="p-2">Job</th>
+            <th class="p-2">Salary</th>
+            <th class="p-2">Bonus</th>
+            <th class="p-2">Sex</th>
+            <th class="p-2">Hire_date</th>
+            <th class="p-2">Active</th>
+            <th class="p-2">Dept Id</th>
+            <th class="p-2">Create_At</th>
+            <th class="p-2">Update_At</th>
+
+        </tr>
+        <% @employees.each do |e| %>
+        <tr>
+            <td class="p-2">
+                <%= e.id %>
+            </td>
+            <td class="p-2">
+                <%= e.first_name %>
+            </td>
+            <td class="p-2">
+                <%= e.last_name %>
+            </td>
+            <td class="p-2">
+                <%= e.job_role %>
+            </td>
+            <td class="p-2">
+                <%= e.salary %>
+            </td>
+            <td class="p-2">
+                <%= e.insentive %>
+            </td>
+            <td class="p-2">
+                <%= e.sex %>
+            </td>
+            <td class="p-2">
+                <%= e.hire_date %>
+            </td>
+            <td class="p-2">
+                <%= e.active %>
+            </td>
+            <td class="p-2">
+                <%= e.department_id %>
+            </td>
+            <td class="p-2">
+                <%= e.created_at %>
+            </td>
+            <td class="p-2">
+                <%= e.updated_at %>
+            </td>
+        </tr>
+        <% end %>
+    </table>
+</div>
